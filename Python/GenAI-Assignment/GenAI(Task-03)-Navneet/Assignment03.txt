@@ -1,0 +1,75 @@
+Task 1 - Basic Function: Price After Discount
+
+Write a function apply_discount(price, discount_percent) that:
+
+Returns the price after discount.
+If discount_percent is missing, apply a default discount of 5%.
+Test the function with:
+apply_discount(1000, 10)
+apply_discount(500) (uses default discount)
+Extra (optional): Add a condition inside the function to ensure discount never exceeds 60%.
+
+
+
+Task 2 - Recursive Function: Factorial Utility
+
+Create a recursive function factorial(n) that:
+
+Returns the factorial of n.
+Handles two edge cases:
+n == 0
+n == 1
+Prints an error message if n is negative.
+
+
+
+Task 3 - Lambda Function: GST Calculator
+
+Create a lambda function gst that returns price after adding 18% GST.
+
+
+
+Task 4 - Using map(): Apply GST to List of Prices
+
+Given:
+
+prices = [100, 250, 400, 1200, 50]
+
+Use map() with your gst lambda to generate a new list prices_with_gst.
+
+Print both lists:
+
+Original prices
+Prices after GST
+
+
+
+Task 5 - Using filter(): Filter Expensive Products
+
+Given the list:
+
+prices = [100, 250, 400, 1200, 50, 2000, 850]
+
+Use filter() to:
+
+Create a list of prices greater than 500.
+Create another list of prices less than or equal to 500.
+
+Print both lists.
+
+
+
+Task 6 - Combined Utility Function
+
+Write a function process_prices(prices) that:
+
+Takes a list of prices.
+Uses map() + lambda to apply 10% discount to all prices.
+Uses filter() to keep only discounted prices that are above 300.
+Returns both lists:
+All discounted prices
+Filtered prices above 300
+
+Test with:
+
+prices = [100, 250, 400, 1200, 50]
