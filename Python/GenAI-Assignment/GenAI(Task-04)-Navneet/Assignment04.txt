@@ -1,0 +1,51 @@
+Assignment 4: File Handling (Read, Write, Append, Modes)
+
+Task 1: Write Sales Records to a File
+
+Create a list of sales amounts:
+
+sales = [1200, 450, 980, 1500, 3000]
+Open a file named sales_data.txt in write mode.
+Write each sale on a new line in the file.
+Close the file, then reopen it and print its contents.
+
+Extra (optional): Write the data in comma-separated format instead of separate lines.
+
+
+
+Task 2: Read File in Different Ways
+
+Using the same sales_data.txt:
+
+Read the entire file using .read() and print it.
+Read the first line using .readline().
+Read all lines using .readlines() and convert them into a list of integers.
+
+Ensure proper formatting and cleanup of newline characters.
+
+
+
+Task 3: Append New Sales
+
+Append these new sales to the same file:
+
+5000, 2500, 1700
+After appending, reopen and print the entire updated file.
+
+Extra (optional): Print the total number of lines after appending.
+
+
+
+Task 4: Generate Summary Report from File
+
+Using only file reading operations:
+
+Read all sales values from sales_data.txt.
+Convert them to integers.
+Calculate and print:
+Total sales
+Highest sale
+Lowest sale
+Average sale
+
+Extra (optional): Print how many sales are above the average.
