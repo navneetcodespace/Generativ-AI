@@ -1,0 +1,58 @@
+Assignment 6: Exception Handling
+Task 1: Safe Division Utility
+
+Write a program that:
+
+Takes two inputs from the user: numerator and denominator.
+Uses try-except to handle:
+ValueError (if input is not a number)
+ZeroDivisionError (if denominator = 0)
+If no error occurs, print the result inside the else block.
+
+In the finally block, print:
+
+Operation Complete
+Task 2: Bill Calculator with Error Handling
+
+Given a list of product prices:
+
+prices = [120, 350, 'abc', 500, -200, 800]
+
+Write code that:
+
+Iterates through the list.
+Tries to add only valid (positive numerical) prices to the total.
+Handles:
+TypeError if value is not a number.
+
+Custom exception using:
+
+raise ValueError("Negative price not allowed")
+Prints the running total.
+
+Expected behavior:
+
+Skip invalid items but continue processing.
+Task 3: Custom Exception: Age Validator
+Write a function:
+check_age(age)
+
+that:
+
+Raises a custom exception:
+ValueError("Age must be between 1 and 120")
+
+if age is out of range.
+
+In your main code:
+Take age input from the user.
+Use try-except to catch and print the custom error message.
+Task 4: File Reader with Exception Handling
+Ask the user for a filename.
+Try to open and read the file.
+Handle:
+FileNotFoundError
+PermissionError
+If successful, print the first 3 lines of the file.
+Use finally to print:
+File operation attempted.
